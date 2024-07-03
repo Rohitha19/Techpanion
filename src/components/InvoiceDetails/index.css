@@ -1,0 +1,90 @@
+.form-container {
+    width: 50vw;
+    font-size:12px;
+    font-family:Arial;
+  }
+
+  label {
+    width: 40%;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items:center;
+    padding:2px;
+  }
+  .tcs{
+    margin-top:12px;
+    margin-bottom:10px;
+  }
+  
+  input{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  .radio-group {
+    display: flex;
+    align-items:center;
+  }
+  
+  input[type=radio]{
+    height:1em;
+    width:100%;
+    border:0px;
+  }
+  span{
+    color:red;
+  }
+  h4 {
+    background-color: rgb(189, 186, 186);
+    font-weight: normal;
+    padding:10px;
+  }
+  .alternate-payee{
+    padding:10px;
+  }
+  .icon{
+    gap:10px;
+    width:50px;
+    margin:20px;
+  }
+  .bottom-table{
+    display: flex;
+    flex-direction: column;
+  }
+  .row1{
+    background-color:rgb(242, 240, 240);
+    display: flex;
+    padding:20px;
+    justify-content: space-around;
+    font-weight:bold;
+  }
+  .row2{
+    background-color:rgb(209, 241, 248);
+    display: flex;
+    padding:20px;
+    justify-content: space-around;
+    font-weight:bold;
+  }
+  .pages-{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-end;
+  }
+  .pages{
+    display: flex;
+    margin:20px;
+    height:30px;
+    align-items:center;
+  }
+  .bottom-buttons{
+    background-color:rgb(117, 9, 171);
+    padding:10px;
+    border-width: 0px;
+    color: white;
+    margin:10px;
+  }
+  

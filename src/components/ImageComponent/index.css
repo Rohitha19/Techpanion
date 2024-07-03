@@ -1,0 +1,8 @@
+.image-container {
+    display: flex;
+    height:100vh;
+    width: 50vw; /* Adjust as per layout requirement */
+    overflow-x: hidden;
+    position: sticky;
+}
+  
